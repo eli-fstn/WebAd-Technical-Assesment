@@ -61,4 +61,10 @@ Honest, simple work that you understand is always better than impressive work yo
 
 ---
 
+## Questions
+ 
+If anything in this document is unclear, you are free to ask the panel. Don't hesitate to reach out.
+ 
+---
+
 Best of luck, applicants!
