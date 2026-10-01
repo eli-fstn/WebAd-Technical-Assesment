@@ -1,0 +1,25 @@
+{
+  "name": "notatodolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test:get": "node scripts/test-endpoints.js GET /",
+    "test:post": "node scripts/test-endpoints.js POST / \"{\\\"title\\\":\\\"Sample todo\\\",\\\"completed\\\":false}\"",
+    "test:put": "node scripts/test-endpoints.js PUT /1 \"{\\\"title\\\":\\\"Updated todo\\\",\\\"completed\\\":true}\"",
+    "test:delete": "node scripts/test-endpoints.js DELETE /1",
+    "test:all": "npm run test:get && npm run test:post && npm run test:put && npm run test:delete"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
